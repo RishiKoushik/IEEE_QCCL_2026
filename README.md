@@ -1,6 +1,13 @@
-# QCCL — Quantum-Classical Comparative Learning
+# QCCL — Code & Results for IEEE qCCL 2026
 
-Code and results accompanying the IEEE QCCL 2026 paper *"Capacity and Architecture in Quantum-Generated Linear Classifiers"*.
+Code and results accompanying our IEEE qCCL 2026 paper:
+
+> **Capacity and Architecture in Quantum-Generated Linear Classifiers: An Image Classification Study**
+> Rishi Koushik Reddy Thippireddy and Aswath Babu H
+
+To appear at the **2026 IEEE International Conference on Quantum Control, Computing, and Learning (IEEE qCCL 2026)**, Aalborg University, Denmark.
+
+For questions about this code, contact `rishikoushik18@gmail.com`.
 
 The experiments train ensembles of small quantum circuits (5 qubits) as feature generators followed by a linear classifier, compare them against classical linear baselines on MNIST and Fashion-MNIST, and run a factorial study over five architectural factors (ansatz family, depth, capacity K, initialisation, input representation).
 
@@ -143,8 +150,13 @@ Wall time per dataset: ≈ 28–30 hours running 55–58 worker subprocesses in 
 
 ## Citation
 
-If you use this code or the released results, please cite the IEEE QCCL 2026 paper.
-The official citation and proceedings link will be added here once available.
+If you use this code or the released results, please cite:
+
+> Rishi Koushik Reddy Thippireddy and Aswath Babu H,
+> *"Capacity and Architecture in Quantum-Generated Linear Classifiers: An Image Classification Study"*,
+> 2026 IEEE International Conference on Quantum Control, Computing, and Learning (IEEE qCCL 2026), Aalborg University, Denmark.
+
+Full citation details will be added here once the proceedings are available.
 
 ---
 
